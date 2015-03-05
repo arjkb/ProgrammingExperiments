@@ -7,13 +7,15 @@ print " After slicing: " + encoded_bits
 
 for x in encoded_bits:
 	if count == 5 :
+		count = 0;
 		continue;
 	
-	if x == 1 :
+	if x == "1" :
 		count = count + 1;
 	else	:
 		count = 0;
-
+	
+	print "Copying ", x
 	original_bits += x;
 
 print " Original bits: " + original_bits
