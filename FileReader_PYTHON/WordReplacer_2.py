@@ -6,6 +6,8 @@
 
 """
 
+import sys
+
 print "Welcome to File Reader";
 print "Enter File Name: ";
 # name = raw_input(" > ");
@@ -18,7 +20,7 @@ print "Original Contents: \n" + content; #print original contents of file
 # original_word = raw_input(" Enter word to replace: ");
 # replacement_word = raw_input(" Enter new replacement word: ");
 original_word = sys.argv[2];
-replacement_word = sys.argc[3];
+replacement_word = sys.argv[3];
 
 #perform replacement
 newcontent = content.replace(original_word, replacement_word);
