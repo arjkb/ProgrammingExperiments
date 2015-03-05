@@ -1,0 +1,15 @@
+#page_head {
+    text-align: center;
+}
+#sample_paragraph   {
+ text-align: center;
+}   
+
+#form_table   {
+    margin: auto;    
+}
+
+
+td.form_feature {
+    text-align: right;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    
+	<head>
+		<title> My Web Page </title>
+		<script src = "myscript.js">	</script>
+        <link rel = "stylesheet" type="text/css" href = "mystyle.css">
+	</head>
+    
+	<body>
+        
+        <header id = "page_head"> 
+           <h1> Welcome to the Registration Page! </h1> 
+        </header>
+
+        <p id = "sample_paragraph"> This is a sample text </p>
+
+
+        <section id = "reg_details_sec"> 
+
+            <fieldset = "form_fieldset">
+                <form onsubmit = "validator(myname, myphone, myemail)">
+
+                  <table id = "form_table">
+                      <tr> <td class="form_feature"> Name:  </td> <td> <input type = "text" name = "myname">   </td> </tr>
+                      <tr> <td class="form_feature"> Phone: </td> <td> <input type = "text" name = "myphone">  </td> </tr>
+                      <tr> <td class="form_feature"> Email: </td> <td> <input type = "email" name = "myemail"> </td> </tr>
+
+                      <tr> <td class="form_feature"> Gender: </td> <td> <input type = "radio" name = "gender" value = "male"> Male
+                                                    <input type = "radio" name = "gender" value = "female"> Female
+                                              </td> 
+                      </tr>
+                      
+                      <tr> <td class="form_feature"> Room Preference: </td> <td> <input type = "radio" name = "room_pref" value = "ac"> AC
+                                                            <input type = "radio" name = "room_pref" value = "nonac"> Non AC
+                                                        </td> 
+                      </tr>
+
+                      <tr> <td>        </td> <td> <input type = "submit"> </td> </tr>
+                  </table>
+
+                </form>
+            </fieldset>
+            
+        </section>
+        
+    </body>
+</html>
