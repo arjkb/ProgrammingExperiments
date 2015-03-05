@@ -15,7 +15,6 @@ for x in encoded_bits:
 	else	:
 		count = 0;
 	
-	print "Copying ", x
 	original_bits += x;
 
-print " Original bits: " + original_bits
+print " Original bits (decoded): " + original_bits
