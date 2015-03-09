@@ -3,10 +3,12 @@ import socket
 s = socket.socket()
 host = socket.gethostname()
 
-PORT = 4001;
+PORT = 4007
 
 s.connect((host, PORT));
 
-s.send("Hello!")
+s.send("This should be cool!");
+
+print "SERVER SAYS: ", s.recv(1024)
 
 s.close()
