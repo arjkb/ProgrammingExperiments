@@ -11,7 +11,6 @@ s.listen(1)
 while True	:
 	c, addr = s.accept();
 	print "CONNECTED: ", addr;
-
 	print " CLIENT SAYS: ", c.recv(1024);
 	c.send("Thank You!");
 	c.close();
