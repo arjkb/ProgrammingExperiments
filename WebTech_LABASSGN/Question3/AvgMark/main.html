@@ -1,10 +1,14 @@
+<!-- 
+    Web application to accept number of subjects, accept marks of subjects, and calculate average.
+    Use prompt in JS 
+-->
 <!DOCTYPE html>
 <html>
     <head>
         <title> Marks Calculator </title>
         <script src="myscript.js"> </script>
     </head>
-    <body>
+    <body onload="init()">
         <table style = "margin: auto">
             <tr> 
                 <th> S.NO </th>
@@ -48,6 +52,8 @@
             </tr>        
             
         </table>
+        
+        Average Mark: <p id = "average_mark"> </p>
         
     </body>
 </html>
