@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title> Compound Interest Calculator </title>
+        <link href = "mystyle.css" rel = "stylesheet" type="text/css">
+        <script src="myscript.js"> </script>
+    </head>
+    <body>
+        <header>
+            <h1> COMPOUND INTEREST CALCULATOR </h1>
+        </header>
+        <section>
+            <form onsubmit="procValues()" name = "data_form">
+                <table id = "data_table">
+                    <tr>
+                        <td> Principal Amount </td>
+                        <td> <input type ="text" name = "principal">  </td>
+                    </tr>
+                    <tr>
+                        <td> Interest Rate </td>
+                        <td> <input type ="text" name = "rate"> </td>
+                    </tr>
+                    <tr>
+                        <td> Number of years </td>
+                        <td> <input type ="text" name = "years"> </td>
+                    </tr>
+                    <tr>
+                        <td> Number of times interest is compounded </td>
+                        <td> <input type ="text" name = "comp_n"> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> <input type ="submit"> </td>
+                    </tr>
+                </table>
+            </form>
+            
+            <section id = "result_section">
+                Amount
+                <p id = "result_amount"> </p>
+            </section>
+            
+        </section>
+        
+    </body>
+</html>
