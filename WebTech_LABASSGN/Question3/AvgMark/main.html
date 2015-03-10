@@ -7,55 +7,22 @@
     <head>
         <title> Marks Calculator </title>
         <script src="myscript.js"> </script>
+        <link href = "mystyle.css" rel = "stylesheet" type="text/css">
     </head>
     <body onload="init()">
-        <p id = "prr"> P1 </p>
         
-        <table style = "margin: auto" id = "mark_table">
-            <!--<tr> 
-                <th> S.NO </th>
-                <th> Course </th>
-                <th> Marks </th>            
-            </tr>
-            <tr>
-                <td> 1 </td>
-                <td id = "sub1"> Subject 1 </td>
-                <td id = "mark1"> 1010 </td>
-            </tr>
+        <header id = "main_heading">
+            <h1 id = "main_title"> Marks Average Calculator </h1>            
+        </header>
         
-            <tr>
-                <td> 2 </td>
-                <td id = "sub2"> Subject 1 </td>
-                <td id = "mark2"> </td>
-            </tr>
-        
-            <tr>
-                <td> 3 </td>
-                <td id = "sub3"> Subject 1 </td>
-                <td id = "mark3"> </td>
-            </tr>
-        
-            <tr>
-                <td> 4 </td>
-                <td id = "sub4"> Subject 1 </td>
-                <td id = "mark4"> </td>
-            </tr>
-        
-            <tr>
-                <td> 5 </td>
-                <td id = "sub5"> Subject 1 </td>
-                <td id = "mark5"> </td>
-            </tr>
-        
-            <tr>
-                <td> 6 </td>
-                <td id = "sub6"> </td>
-                <td id = "mark6"> </td>
-            </tr>-->        
-            
+        <table id = "mark_table">
+            <!-- Content dynamically added by JS -->
         </table>
         
-        Average Mark: <p id = "average_mark"> </p>
+        <div id = "avg_disp">
+            <br> <br>
+            Your average mark is <p id = "average_mark"> </p>        
+        </div>
         
     </body>
 </html>
