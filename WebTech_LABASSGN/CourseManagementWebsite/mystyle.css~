@@ -1,0 +1,57 @@
+#main_title	{
+  font-family: "Courier";
+  
+}
+
+#nav_bar	{
+  margin: auto;
+  /*background-color: gray;*/
+  text-align: center;
+  font-family: "freesans";
+}
+
+.navbarelem	{
+  background-color: #00CC99;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+  
+
+#section_table	{
+  margin: auto;
+}
+
+a:link	{
+  text-decoration: none;
+  font-family: "Verdana";
+  font-size: 16px;
+  color: red;
+}
+
+a:hover	{
+  text-decoration: none;
+  font-family: "Verdana";
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+a:active	{
+  font-weight: bold;
+}
+
+h1	{
+  text-align: center;
+}
+
+article	{
+  font-family: "Verdana";
+  font-size: 10px;
+}
+
+footer	{
+  text-align: center;
+  font-family : "Courier"
+}

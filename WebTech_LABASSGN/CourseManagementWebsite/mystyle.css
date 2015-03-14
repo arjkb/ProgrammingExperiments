@@ -1,0 +1,73 @@
+#main_title	{
+  font-family: "Courier";
+  
+}
+
+#nav_bar	{
+  margin: auto;
+/*  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: coral;*/
+  text-align: center;
+  font-family: "freesans";
+}
+
+
+.activenavbarelem	{
+  /*background-color: #003366;*/
+  background-color: #007FFF;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  
+}
+
+.navbarelem	{
+  /*background-color: #00CC99;*/
+  background-color: #00FF00;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+  
+
+#section_table	{
+  margin: auto;
+}
+
+a:link	{
+  text-decoration: none;
+  font-family: "Verdana";
+  font-size: 16px;
+  /*color: #FF7F00;*/
+  color: red;
+}
+
+a:hover	{
+  text-decoration: none;
+  font-family: "Verdana";
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+a:active	{
+  font-weight: bold;
+}
+
+h1	{
+  text-align: center;
+}
+
+article	{
+  font-family: "Verdana";
+  font-size: 14px;
+}
+
+footer	{
+  text-align: center;
+  font-family : "Courier"
+}
