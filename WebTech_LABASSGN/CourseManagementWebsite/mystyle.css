@@ -60,11 +60,16 @@ a:active	{
 
 h1	{
   text-align: center;
+    color: #FF0044;
 }
 
 article	{
   font-family: "Verdana";
   font-size: 14px;
+}
+
+img {
+    margin: auto;
 }
 
 footer	{
