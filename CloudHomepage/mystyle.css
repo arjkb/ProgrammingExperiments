@@ -1,3 +1,7 @@
+/*
+    All colors used are demo colors. Will be changed soon.
+*/
+
 #main_content   {
     margin: auto;
 }
@@ -5,9 +9,10 @@
 a   {
     text-decoration: none;
 }
+
 a.navbarelem    {
     text-decoration: none;
-    background: blue;
+    background: blue;    
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
