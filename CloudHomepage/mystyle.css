@@ -1,4 +1,10 @@
+#main_content   {
+    margin: auto;
+}
 
+a   {
+    text-decoration: none;
+}
 a.navbarelem    {
     text-decoration: none;
     background: blue;
@@ -8,13 +14,18 @@ a.navbarelem    {
     padding-top: 10px;
 }
 
-a:hover {
-    background: green;
-    
+a.navbarelem:hover {
+    background: coral;
+    /*font-size: 25px;*/
 }
 
 
 nav {
+    margin: auto;
+    text-align: center;
+}
+
+footer  {
     margin: auto;
     text-align: center;
 }
