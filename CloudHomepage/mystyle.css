@@ -30,17 +30,23 @@ a.navbarelem:hover {
 }
 
 .javabook {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    color: green;
 }
 
 .sebook {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    color: green;
 }
 
 .wtbook {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    color: green;
 }
 
+.booklist   {
+    list-style-image: url(icons/pdficon_small.png);
+}
 
 
 nav {
