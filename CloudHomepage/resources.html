@@ -2,6 +2,7 @@
 <html>
     <head>
         <title> Welcome! </title>
+        <script src="myscript.js"></script>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
     <body>
@@ -18,8 +19,21 @@
         <div id = "main_content">
             <br />
             <section id="booklist">
-                <a href="books/J2CR.pdf" target="_blank"> Java 2 Complete Reference </a>
+                <ul>
+                    <a class = "javabook" href="books/java/J2CR.pdf" target="_blank"> Java 2 Complete Reference </a> <br />
+                    <a class = "javabook" href="books/java/JavaThreads2.pdf" target="_blank"> Java Threads </a> <br />
+                    <a class = "sebook" href="books/se/SE_Pressman.pdf" target="_blank"> Software Engineering: A Practitioner's Approach </a> <br />
+                    <a class = "wtbook" href="books/webtech/BeginningCSS.pdf" target="_blank"> Beginning CSS </a> <br />
+                    <a class = "wtbook" href="books/webtech/HeadFirstHTML5Programming.pdf" target="_blank"> Head First HTML5 Programming </a> <br />
+                </ul>
             </section>
+            
+            <br />
+            <input type = "radio" name = "book" value = "java" onclick = "getBook('javabook')"> Java <br />
+            <input type = "radio" name = "book" value = "se" onclick = "getBook('sebook')"> Software Engineering <br />
+            <input type = "radio" name = "book" value = "web" onclick = "getBook('wtbook')"> Web Technologies <br />
+            
+            
         </div>
         <footer>
             <small> This is the homepage of Person Name </small> <br />

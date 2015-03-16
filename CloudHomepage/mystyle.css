@@ -11,9 +11,9 @@
     text-align: center;
 }
 
-/*a   {
+a   {
     text-decoration: none;
-}*/
+}
 
 a.navbarelem    {
     text-decoration: none;
@@ -29,6 +29,17 @@ a.navbarelem:hover {
     /*font-size: 25px;*/
 }
 
+.javabook {
+    visibility: hidden;
+}
+
+.sebook {
+    visibility: hidden;
+}
+
+.wtbook {
+    visibility: hidden;
+}
 
 
 
