@@ -52,6 +52,7 @@ a:hover	{
   font-size: 18px;
   font-weight: bold;
   color: red;
+/*  background-color: beige;*/
 }
 
 a:active	{
@@ -60,7 +61,7 @@ a:active	{
 
 h1	{
   text-align: center;
-    color: #FF0044;
+  color: #FF0044;
 }
 
 article	{
@@ -74,5 +75,5 @@ img {
 
 footer	{
   text-align: center;
-  font-family : "Courier"
+  font-family : "Courier";
 }
